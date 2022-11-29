@@ -13,7 +13,7 @@ pipeline {
     BG = "1Platform\\Community\\CI-CD Demo"
     WORKER = "Micro"
 
-    APPNAME = "bpittman-mobile-customer-api-jce"
+    APPNAME = "arana-mobile-customer-api"
   }
   stages {
     stage('Prepare bat configuration') {

@@ -9,7 +9,7 @@ pipeline {
 
   environment {
     DEPLOY_CREDS = credentials('deploy-anypoint-user')
-    MULE_VERSION = '4.3.0'
+    MULE_VERSION = '4.4.0'
     BG = "1Platform\\Community\\CI-CD Demo"
     WORKER = "Micro"
     APPNAME = "RAMQ-mobile-customer-api-v1"

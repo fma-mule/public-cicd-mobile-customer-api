@@ -12,7 +12,7 @@ pipeline {
     MULE_VERSION = '4.3.0'
     BG = "1Platform\\Community\\CI-CD Demo"
     WORKER = "Micro"
-    APPNAME = "bpittman-mobile-customer-api-v1"
+    APPNAME = "RAMQ-mobile-customer-api-v1"
 }
   stages {
     stage('Prepare bat configuration') {

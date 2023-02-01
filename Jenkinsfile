@@ -132,7 +132,7 @@ pipeline {
       }
   }
   tools {
-    maven 'M3.8.6'
+    maven 'M3.6.3'
   }
 }   
 

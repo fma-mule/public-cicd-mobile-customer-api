@@ -12,7 +12,7 @@ pipeline {
     MULE_VERSION = '4.4.0'
     BG = "1Platform\\Community\\CI-CD Demo"
     WORKER = "Micro"
-    APPNAME = "aap-mobile-customer-api-v1"
+    APPNAME = "AHP-mobile-customer-api-v1"
 }
   stages {
     stage('Prepare bat configuration') {

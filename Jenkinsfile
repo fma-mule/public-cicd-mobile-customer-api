@@ -132,7 +132,7 @@ pipeline {
       }
   }
   tools {
-    MAVEN3
+    maven 'MAVEN3'
   }
 }   
 

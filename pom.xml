@@ -36,7 +36,7 @@
 						<applicationName>${cloudhub.app}</applicationName>
 						<businessGroup>${cloudhub.bg}</businessGroup>
 						<workerType>${cloudhub.worker}</workerType>
-						<region>us-east-2</region>
+						<region>eu-central-1</region>
 						<properties>
 							<mule.env>${env.name}</mule.env>
 						</properties>

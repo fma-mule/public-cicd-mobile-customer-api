@@ -10,7 +10,7 @@ pipeline {
   environment {
     DEPLOY_CREDS = credentials('deploy-anypoint-user')
     MULE_VERSION = '4.4.0'
-    BG = "1Platform\\Community\\CI-CD Demo"
+    BG = "demo-nom_entreprise"
     WORKER = "Micro"
     APPNAME = "FAA-demo-mobile-customer-api-v1"
 }

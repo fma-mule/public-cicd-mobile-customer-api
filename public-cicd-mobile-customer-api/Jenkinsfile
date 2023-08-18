@@ -4,10 +4,10 @@ pipeline {
   }
   environment {
     DEPLOY_CREDS = credentials('deploy-anypoint-user')
-    MULE_VERSION = '4.1.5'
+    MULE_VERSION = '4.4.0'
     BG = "demo-nom_entreprise"
     WORKER = "Micro"
-    APPNAME = "FMA1-mobile-customer-api-inner"
+    APPNAME = "FAA-demo-mobile-customer-api-v1"
     DEPLOY_BAT = "true"
   }
   stages {
